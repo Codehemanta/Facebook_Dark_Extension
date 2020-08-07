@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+
+  "name": "Faceboook",
+  "description": "This extension will make a better looking site & It automatically Like facebook post list",
+  "version": "0.1",
+  "icons": {
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Faceboook",
+		"default_popup": "popup.html"
+	},
+
+  "permissions": [
+   "https://www.facebook.com/*"
+   ],
+ "content_scripts": [
+    {
+    "matches": ["https://www.facebook.com/*"],
+  "css" : ["black.css"],"js": [
+                   
+                    "content.js"
+                    
+                    
+                ],
+  "run_at": "document_end"
+}
+  ]
+}
