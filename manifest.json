@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
   "name": "Faceboook",
-  "description": "This extension will make a better looking site & It automatically Like facebook post list",
+  "description": "This extension will make a better looking site",
   "version": "0.1",
   "icons": {
 		"16": "icon.png",
